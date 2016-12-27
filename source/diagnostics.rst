@@ -4,7 +4,7 @@ Diagnostic Services
 
 The **Diagnostic Services** allow you to analyze the container's configuration to search for common configuration mistakes. Simple Injector knows about several common issues that might arise when composing the object graph, and can expose this information to the developer via its diagnostics API. Currently, Simple Injector classifies the issues in two severities: Warnings and Informational messages. 
 
-Information messages are are hints of things might want to look into, such as possible Single Responsibility Principle violations. Warnings on the other hand are strong indications that there is a problem with your configuration. See them as the Simple Injector equivalent of C# warnings: Your code will compile (as in: we will be able to resolve your objects), but you rather want to fix those warnings.
+Information messages are hints of things you might want to look into, such as possible Single Responsibility Principle violations. Warnings on the other hand are strong indications that there is a problem with your configuration. See them as the Simple Injector equivalent of C# warnings: Your code will compile (as in: we will be able to resolve your objects), but you rather want to fix those warnings.
 
 Supported Warnings
 ==================
